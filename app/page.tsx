@@ -38,7 +38,7 @@ const places: Place[] = [
   {
     id: 1,
     name: 'Valletta',
-    image: 'https://images.unsplash.com/photo-1573052905904-34ad8c27f0cc?auto=format&fit=crop&w=1200&q=80',
+    image: "https://images.unsplash.com/photo-1603565816030-6b389eeb23cb",
     category: 'Historic City',
     area: 'Valletta',
     description: "Malta's capital, ideal for history, architecture, museums and walking routes.",
@@ -49,7 +49,7 @@ const places: Place[] = [
   {
     id: 2,
     name: 'Mdina',
-    image: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1200&q=80',
+    image: "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c",
     category: 'Historic City',
     area: 'Mdina',
     description: 'The silent city with old streets, calm atmosphere and scenic viewpoints.',
@@ -60,7 +60,7 @@ const places: Place[] = [
   {
     id: 3,
     name: 'Blue Lagoon',
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
+    image: "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8",
     category: 'Beach & Sea',
     area: 'Comino',
     description: 'Crystal clear turquoise water and one of Malta’s most iconic spots.',
@@ -71,7 +71,7 @@ const places: Place[] = [
   {
     id: 4,
     name: 'Marsaxlokk',
-    image: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=80',
+    image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155",
     category: 'Village',
     area: 'South Malta',
     description: 'Fishing village known for colorful boats, seafood and local vibe.',
@@ -82,7 +82,7 @@ const places: Place[] = [
   {
     id: 5,
     name: 'Dingli Cliffs',
-    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80',
+    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
     category: 'Nature',
     area: 'Dingli',
     description: 'One of the best places in Malta for sunset views and open sea scenery.',
@@ -93,7 +93,7 @@ const places: Place[] = [
   {
     id: 6,
     name: 'Cittadella, Gozo',
-    image: 'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1200&q=80',
+    image: "https://images.unsplash.com/photo-1601042879364-f3947d3f9c16",
     category: 'Historic Site',
     area: 'Gozo',
     description: 'Fortified historic site in Gozo with panoramic island views.',
