@@ -889,10 +889,11 @@ export default function Home() {
                         Save favorites and unlock full itinerary access for €14.99.
                       </div>
                       <button
-                        onClick={() => setPremiumUnlocked(true)}
-                        className="mt-3 rounded-xl bg-black px-4 py-2 text-sm text-white"
-                      >
-                        Unlock premium
+  onClick={() => window.open("https://buy.stripe.com/cNibJ072y5Iu5GVbYQfn000", "_blank")}
+  className="mt-3 rounded-xl bg-black px-4 py-2"
+>
+  Unlock premium
+
                       </button>
                     </div>
                   )}
@@ -905,3 +906,4 @@ export default function Home() {
     </main>
   )
 }
+
