@@ -216,7 +216,7 @@ type DetailItem =
   | null
 
 export default function Home() {
-  const [premiumUnlocked, setPremiumUnlocked] = useState(true)
+  const [premiumUnlocked, setPremiumUnlocked] = useState(false)
   const [activeTab, setActiveTab] = useState<Tab>('home')
   const [selectedCategory, setSelectedCategory] = useState('All')
   const [selectedCuisine, setSelectedCuisine] = useState('All')
