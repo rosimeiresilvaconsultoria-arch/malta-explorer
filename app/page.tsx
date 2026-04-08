@@ -894,7 +894,7 @@ export default function Home() {
   <div className="mt-6">
     <a
       href="/api/download-premium-guide"
-      className="rounded-xl bg-green-500 px-4 py-2 text-white font-semibold inline-block"
+      className="rounded-xl bg-green-500 px-4 py-2 text-black font-semibold inline-block"
     >
       📘 Download Premium Guide
     </a>
@@ -908,7 +908,7 @@ export default function Home() {
                       </div>
                       <button
   onClick={() => window.open("https://buy.stripe.com/cNibJ072y5lu5GVbYQfnO00", "_blank")}
-  className="mt-3 rounded-xl bg-black px-4 py-2"
+  className="mt-3 rounded-xl bg-black px-4 py-2 text-white font-medium"
 >
   Unlock premium
 
