@@ -216,7 +216,7 @@ type DetailItem =
   | null
 
 export default function Home() {
-  const [premiumUnlocked, setPremiumUnlocked] = useState(false)
+  const [premiumUnlocked, setPremiumUnlocked] = useState(true)
   const [activeTab, setActiveTab] = useState<Tab>('home')
   const [selectedCategory, setSelectedCategory] = useState('All')
   const [selectedCuisine, setSelectedCuisine] = useState('All')
@@ -894,7 +894,7 @@ export default function Home() {
   <div className="mt-6">
     <a
       href="/api/download-premium-guide"
-      className="rounded-xl bg-green-500 px-4 py-2 text-black font-semibold inline-block"
+      className="rounded-xl bg-green-500 px-4 py-2 text-white font-semibold inline-block"
     >
       📘 Download Premium Guide
     </a>
